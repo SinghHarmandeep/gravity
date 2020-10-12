@@ -1,0 +1,43 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+.row div {
+    /* display: inline; */
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.row {
+    /* margin: 1em 0 1em 0; */
+    clear: both;
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 302px;
+}
+
+#board{
+    padding-top: 3em;
+    text-align: center;
+}
+
+.top {
+    border-bottom: 1px solid;
+}
+.bottom {
+    border-top: 1px solid;
+}
+.left {
+    border-right: 1px solid;
+}
+.right {
+    border-left: 1px solid;
+}
+
+/* .middle, .top, .bottom {
+    border: 1px solid;
+    padding: .5em;
+} */
